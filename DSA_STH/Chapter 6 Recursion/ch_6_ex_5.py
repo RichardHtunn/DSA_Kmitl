@@ -7,7 +7,8 @@ def staircase(n, i=1):
     else:
         row = "_" * (i - 1) + "#" * (abs_n - i + 1)        
     if i == abs_n:
-        return row        
+        return row
+            
     return row + "\n" + staircase(n, i + 1)
 
 print(" *** Stair case ***")

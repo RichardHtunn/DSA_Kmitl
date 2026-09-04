@@ -13,4 +13,4 @@ if a == 0 and b == 0:
 else:
     if a < b:
         a, b = b, a
-    print(f"The gcd of {a} and {b} is : {gcd(abs(a), abs(b))}")
+    print(f"The gcd of {a} and {b} is : {gcd(abs(a), abs(b))}")     

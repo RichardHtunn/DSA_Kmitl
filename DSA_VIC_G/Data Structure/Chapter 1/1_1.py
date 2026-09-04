@@ -1,5 +1,0 @@
-print("*** Rabbit & Turtle ***")
-d, Vr, Vt, Vf = input("Enter Input : ").split(" ")
-d, Vr, Vt, Vf  = float(d), float(Vr), float(Vt), float(Vf)
-result = (Vf * d) / (Vt - Vr)
-print(f"{result:.2f}")
