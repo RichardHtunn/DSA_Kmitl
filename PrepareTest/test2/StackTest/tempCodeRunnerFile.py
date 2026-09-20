@@ -1,1 +1,0 @@
-S.push(inp[i])
